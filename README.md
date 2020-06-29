@@ -1,1 +1,2 @@
 # Foursquare-Project
+I developed the application using the Swift language and using the MVC Design pattern. The application can run on iOS 9.0 and above devices. I developed the application using Storyboard and user screens are taking place considering different screen sizes. I used open source libraries to shorten the development time. I adhered to object oriented programming rules. (Object Oriented Programing) - The data returned from the Foursquare API is in JSON format. During the web service inquiries, I informed the user with a loading on the screen.

@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		485628D122C387AA0037638A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628D022C387AA0037638A /* AppDelegate.swift */; };
+		485628D322C387AA0037638A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628D222C387AA0037638A /* ViewController.swift */; };
+		485628D622C387AA0037638A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485628D422C387AA0037638A /* Main.storyboard */; };
+		485628D822C387AC0037638A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485628D722C387AC0037638A /* Assets.xcassets */; };
+		485628DB22C387AC0037638A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485628D922C387AC0037638A /* LaunchScreen.storyboard */; };
+		485628E322C38B7B0037638A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628E222C38B7B0037638A /* Response.swift */; };
+		485628E522C38B840037638A /* VenuesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628E422C38B840037638A /* VenuesResponseModel.swift */; };
+		485628E722C38B9C0037638A /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628E622C38B9C0037638A /* LocationModel.swift */; };
+		485628EB22C38D700037638A /* VanueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485628EA22C38D700037638A /* VanueTableViewCell.xib */; };
+		485628ED22C38EEF0037638A /* VanueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628EC22C38EEE0037638A /* VanueTableViewCell.swift */; };
+		485628EF22C395240037638A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628EE22C395240037638A /* ListViewController.swift */; };
+		485628F522C4B5160037638A /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628F422C4B5160037638A /* PopupViewController.swift */; };
+		485628FB22C631F30037638A /* ResponseTipsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628FA22C631F30037638A /* ResponseTipsModel.swift */; };
+		485628FD22C632220037638A /* TipsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628FC22C632220037638A /* TipsModel.swift */; };
+		485628FF22C63BF20037638A /* ItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485628FE22C63BF20037638A /* ItemsModel.swift */; };
+		4856290322C94E780037638A /* ItemsPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4856290222C94E780037638A /* ItemsPhotoModel.swift */; };
+		4889B56922F826FF008380D1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889B56822F826FF008380D1 /* Service.swift */; };
+		4889B56B22F8279E008380D1 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889B56A22F8279E008380D1 /* ServiceProvider.swift */; };
+		4889B56D22F86B76008380D1 /* VenueServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889B56C22F86B76008380D1 /* VenueServices.swift */; };
+		4898773F22D33CB900421537 /* ResponsePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4898773E22D33CB900421537 /* ResponsePhotos.swift */; };
+		4898774122D33D3800421537 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4898774022D33D3800421537 /* PhotoModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		485628CD22C387AA0037638A /* FoursquareProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485628D022C387AA0037638A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485628D222C387AA0037638A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		485628D522C387AA0037638A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485628D722C387AC0037638A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485628DA22C387AC0037638A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		485628DC22C387AC0037638A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485628E222C38B7B0037638A /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		485628E422C38B840037638A /* VenuesResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesResponseModel.swift; sourceTree = "<group>"; };
+		485628E622C38B9C0037638A /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		485628EA22C38D700037638A /* VanueTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VanueTableViewCell.xib; sourceTree = "<group>"; };
+		485628EC22C38EEE0037638A /* VanueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanueTableViewCell.swift; sourceTree = "<group>"; };
+		485628EE22C395240037638A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		485628F422C4B5160037638A /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		485628FA22C631F30037638A /* ResponseTipsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTipsModel.swift; sourceTree = "<group>"; };
+		485628FC22C632220037638A /* TipsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsModel.swift; sourceTree = "<group>"; };
+		485628FE22C63BF20037638A /* ItemsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemsModel.swift; path = ../../../../../Downloads/codegen_5d16040a5e6e7/ItemsModel.swift; sourceTree = "<group>"; };
+		4856290222C94E780037638A /* ItemsPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsPhotoModel.swift; sourceTree = "<group>"; };
+		4889B56822F826FF008380D1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4889B56A22F8279E008380D1 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		4889B56C22F86B76008380D1 /* VenueServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueServices.swift; sourceTree = "<group>"; };
+		4898773E22D33CB900421537 /* ResponsePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePhotos.swift; sourceTree = "<group>"; };
+		4898774022D33D3800421537 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485628CA22C387AA0037638A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485628C422C387AA0037638A = {
+			isa = PBXGroup;
+			children = (
+				485628CF22C387AA0037638A /* FoursquareProject */,
+				485628CE22C387AA0037638A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		485628CE22C387AA0037638A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485628CD22C387AA0037638A /* FoursquareProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485628CF22C387AA0037638A /* FoursquareProject */ = {
+			isa = PBXGroup;
+			children = (
+				485628D722C387AC0037638A /* Assets.xcassets */,
+				485628DC22C387AC0037638A /* Info.plist */,
+				485628F222C397AE0037638A /* View */,
+				485628F122C3979C0037638A /* ResponseModel */,
+				485628F022C3978C0037638A /* Controller */,
+			);
+			path = FoursquareProject;
+			sourceTree = "<group>";
+		};
+		485628F022C3978C0037638A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				485628D022C387AA0037638A /* AppDelegate.swift */,
+				485628D222C387AA0037638A /* ViewController.swift */,
+				485628EE22C395240037638A /* ListViewController.swift */,
+				485628F422C4B5160037638A /* PopupViewController.swift */,
+				4889B56822F826FF008380D1 /* Service.swift */,
+				4889B56A22F8279E008380D1 /* ServiceProvider.swift */,
+				4889B56C22F86B76008380D1 /* VenueServices.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		485628F122C3979C0037638A /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				485628E222C38B7B0037638A /* Response.swift */,
+				485628E422C38B840037638A /* VenuesResponseModel.swift */,
+				485628E622C38B9C0037638A /* LocationModel.swift */,
+				4898773E22D33CB900421537 /* ResponsePhotos.swift */,
+				4898774022D33D3800421537 /* PhotoModel.swift */,
+				4856290222C94E780037638A /* ItemsPhotoModel.swift */,
+				485628FA22C631F30037638A /* ResponseTipsModel.swift */,
+				485628FC22C632220037638A /* TipsModel.swift */,
+				485628FE22C63BF20037638A /* ItemsModel.swift */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		485628F222C397AE0037638A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				485628D422C387AA0037638A /* Main.storyboard */,
+				485628D922C387AC0037638A /* LaunchScreen.storyboard */,
+				485628F322C397DE0037638A /* Custom Cell */,
+				485628EA22C38D700037638A /* VanueTableViewCell.xib */,
+				485628EC22C38EEE0037638A /* VanueTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		485628F322C397DE0037638A /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485628CC22C387AA0037638A /* FoursquareProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485628DF22C387AC0037638A /* Build configuration list for PBXNativeTarget "FoursquareProject" */;
+			buildPhases = (
+				485628C922C387AA0037638A /* Sources */,
+				485628CA22C387AA0037638A /* Frameworks */,
+				485628CB22C387AA0037638A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoursquareProject;
+			productName = FoursquareProject;
+			productReference = 485628CD22C387AA0037638A /* FoursquareProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485628C522C387AA0037638A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ömer Faruk Fildişi";
+				TargetAttributes = {
+					485628CC22C387AA0037638A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 485628C822C387AA0037638A /* Build configuration list for PBXProject "FoursquareProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485628C422C387AA0037638A;
+			productRefGroup = 485628CE22C387AA0037638A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485628CC22C387AA0037638A /* FoursquareProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485628CB22C387AA0037638A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485628DB22C387AC0037638A /* LaunchScreen.storyboard in Resources */,
+				485628EB22C38D700037638A /* VanueTableViewCell.xib in Resources */,
+				485628D822C387AC0037638A /* Assets.xcassets in Resources */,
+				485628D622C387AA0037638A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		485628C922C387AA0037638A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485628EF22C395240037638A /* ListViewController.swift in Sources */,
+				485628D322C387AA0037638A /* ViewController.swift in Sources */,
+				485628ED22C38EEF0037638A /* VanueTableViewCell.swift in Sources */,
+				4856290322C94E780037638A /* ItemsPhotoModel.swift in Sources */,
+				4898773F22D33CB900421537 /* ResponsePhotos.swift in Sources */,
+				485628FB22C631F30037638A /* ResponseTipsModel.swift in Sources */,
+				485628E522C38B840037638A /* VenuesResponseModel.swift in Sources */,
+				485628FD22C632220037638A /* TipsModel.swift in Sources */,
+				485628FF22C63BF20037638A /* ItemsModel.swift in Sources */,
+				485628E722C38B9C0037638A /* LocationModel.swift in Sources */,
+				4889B56922F826FF008380D1 /* Service.swift in Sources */,
+				4889B56B22F8279E008380D1 /* ServiceProvider.swift in Sources */,
+				4889B56D22F86B76008380D1 /* VenueServices.swift in Sources */,
+				4898774122D33D3800421537 /* PhotoModel.swift in Sources */,
+				485628F522C4B5160037638A /* PopupViewController.swift in Sources */,
+				485628E322C38B7B0037638A /* Response.swift in Sources */,
+				485628D122C387AA0037638A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		485628D422C387AA0037638A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485628D522C387AA0037638A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		485628D922C387AC0037638A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485628DA22C387AC0037638A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		485628DD22C387AC0037638A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		485628DE22C387AC0037638A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485628E022C387AC0037638A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoursquareProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = omerfildisi.FoursquareProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485628E122C387AC0037638A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoursquareProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = omerfildisi.FoursquareProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		485628C822C387AA0037638A /* Build configuration list for PBXProject "FoursquareProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485628DD22C387AC0037638A /* Debug */,
+				485628DE22C387AC0037638A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485628DF22C387AC0037638A /* Build configuration list for PBXNativeTarget "FoursquareProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485628E022C387AC0037638A /* Debug */,
+				485628E122C387AC0037638A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485628C522C387AA0037638A /* Project object */;
+}
